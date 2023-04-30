@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bootstrap demo</title>
+</head>
+<body>
+    <!--header start-->
+    <nav class="navbar bg-primary navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">TSHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  New Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider text-light"></li>
+                  <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider text-light"></li>
+                  <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+                </ul>
+              </li>
+             
+             
+              <li class="nav-item">
+                <a class="nav-link text-light ">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-light text-light" type="submit">Cart</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+       <!--header end-->
+    <!--home start-->
+    <div id="carouselExampleCaptions" class="carousel slide mb-3">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="90vh" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="90vh" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="90vh" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="90vh" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="90vh" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="90vh" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <!--home end-->
+        <!--New Arrivals start-->
+        <div class="container d-flex flex-column mb-5 align-items-center justify-content-center">
+             <h2 class="mt-5">NEW ARRIVALS</h2>
+           <div class="container d-flex mt-5 flex-wrap justify-content-evenly">
+            <div class="card mb-5" style="width: 18rem;">
+                <img src="assets/images/grey.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Product One</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere neque tempore quae aspernatur quibusdam pariatur commodi recusandae reiciendis labore ex!</p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+              
+              <div class="card mb-5" style="width: 18rem;">
+                <img src="assets/images/grey.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Product Two</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum cupiditate eligendi voluptatum enim. Eos rerum saepe sint unde recusandae.</p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+              
+              <div class="card mb-5" style="width: 18rem;">
+                <img src="assets/images/grey.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Product Three</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsa deserunt consectetur sed expedita animi ea doloribus dicta voluptatum optio.</p>
+                  <a href="#" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+           </div>
+        </div>
+        <!--New Arrivals end-->
+
+        <!--Hello World start-->
+        <div class="container  d-flex flex-column flex-wrap align-items-center gap-3 justify-content-center p-5  bg-secondary">
+              <h1>Hello World!</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut commodi nam quis nobis necessitatibus.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+        <!--Hello World end-->
+
+        <!--Collection start-->
+
+        <div class="container collection d-flex flex-column align-items-center gap-3 justify-content-center p-5">
+            <h1>Our Collection</h1>
+            <div class="container d-flex justify-content-center align-items-center gap-3">
+                <img src="assets/images/grey.jpg" class="img-thumbnail"style="width:200px; height:200px" alt="...">
+                <img src="assets/images/grey.jpg" class="img-thumbnail"style="width:200px; height:200px" alt="...">
+                <img src="assets/images/grey.jpg" class="img-thumbnail" style="width:200px; height:200px" alt="...">
+                <img src="assets/images/grey.jpg" class="img-thumbnail" style="width:200px; height:200px"alt="...">
+                
+             
+            </div>
+      </div>
+        <!--Collection end-->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid my-5">
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #1c2331"
+            >
+      <!-- Section: Social media -->
+      <section
+               class="d-flex justify-content-between p-4"
+               style="background-color: #6351ce"
+               >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+  
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-white">MDBootstrap</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">MDWordPress</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">BrandFlow</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Bootstrap Angular</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >MDBootstrap.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  
+  </div>
+  <!-- End of .container -->
+
+       
+</body>
+</html>
